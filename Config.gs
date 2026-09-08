@@ -14,7 +14,6 @@ const CITY = "YOUR_CITY,YOUR_COUNTRY_CODE"; // e.g., "Paris,FR" or "New_York,US"
 // Slide IDs from your Google Slides template (one per screen layout).
 // Retrieve these from the Slide URL: .../edit#slide=id.YOUR_SLIDE_ID
 const SLIDE_IDS = {
-  DASHBOARD: "YOUR_SLIDE_ID_1",
   MOVIES: "YOUR_SLIDE_ID_2",
   TV_RECO: "YOUR_SLIDE_ID_3",
   TV: "YOUR_SLIDE_ID_4",
@@ -36,7 +35,6 @@ const SCREEN_ORDER = ["MOVIES", "TV", "TV_RECO"];
 // - STATIC  : Generated once a day via a time-driven trigger and served from Drive cache
 //             the rest of the time (infrequently changing or resource-heavy content).
 const SCREEN_MODES = {
-  DASHBOARD: "DYNAMIC",
   NEWS1: "DYNAMIC",
   NEWS2: "DYNAMIC",
   EVENING: "STATIC",
